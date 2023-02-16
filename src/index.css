@@ -1,0 +1,214 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+form {
+  width: 50%;
+}
+
+.form-block {
+  background-color: #ebebeb;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* form */
+/* Add a background color to the form container */
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style the form inputs */
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+*{
+  box-sizing: border-box;
+  font-family:Times, serif;
+}
+/* .navbar{
+  background-color: rgb(200, 199, 199);
+  width: 1807px;
+
+}
+.navbar ul{
+  overflow: auto;
+  list-style: none;
+  
+}
+.navbar li a{
+  color: white;
+  float : right;
+  padding:10px 10px;
+  text-decoration: none;
+  margin: 5px 5px;
+  
+}
+
+.navbar input{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border: 2px solid black;
+  border-radius: 34px;
+}
+.navbar li a:hover{
+  background-color: rgb(234, 211, 180);
+  border-radius: 34px;
+  
+
+} */
+p{
+  color: white;
+}
+#navhead{
+  color: white;
+  padding: 15px 15px;
+  float: left;
+  margin:auto;
+  font-size: 25px;
+}
+.primaryBg{
+  border: 2px solid black;
+  height: 455px;
+  width:1807px;
+  background-color:aliceblue;
+  margin-right:7px;
+}
+.icon{
+  height:35px;
+  width:35px;
+}
+.picone{
+  float:left;
+
+  height:250px;
+  width:320px;
+  margin:20px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIhjms4Zdj-bgvDAJjIpTJsU7zcwbKLHY0VIemu8c4S5G7ha4lIqK2otNXSUg3th7WjLg&usqp=CAU');
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+.picthree{
+  float:left;
+  
+  height:250px;
+  width:320px;
+  margin:20px;
+  background-image: url('https://www.careerindia.com/college-photos/520x380/21677/muj-campus_1463046011.jpg');
+  background-repeat:no-repeat 
+
+}
+.pictwo{
+  float:right;
+ 
+  height:250px;
+  width:320px;
+  margin:20px;
+  background-image: url('https://images.indianexpress.com/2022/03/manipal-lead-1.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+
+}
+.picfour{
+  float:right;
+
+  height:250px;
+  width:320px;
+  margin:20px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyhO1Hw4wUsVSyKsW-ISotU1mtvPllw375Qw&usqp=CAU');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.navnav{
+  padding: 1px;
+}
+.button{
+  height: 56px;
+  width: 112px;
+}
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.center2{
+position: absolute;
+top:25%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+p{
+  font-size: 30px;
+  color: black;
+}
+
+.landingp{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.btn{
+  background-color: rgb(234, 211, 180);
+  border-radius: 34px;
+  padding: 30px 30px;
+  margin: 10px 10px;
+  font-size: 20px;
+  color: black;
+
+}
